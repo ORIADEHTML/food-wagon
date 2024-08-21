@@ -1,0 +1,313 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+header nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+header nav .logo img{
+    height: 40px;
+}
+header nav .location{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+header nav .location img{
+    height: 20px;
+}
+header nav .user-opt{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+header nav .user-opt .search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header nav .user-opt .search img{
+    height: 20px;
+}
+header nav .user-opt .user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFB800;
+}
+header nav .user-opt .user{
+    height: 20px;
+}
+header .hero-page{
+    height: 80vh;
+    background-image: url(/Images/Group\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    display: flex;
+    justify-content: space-between;
+}
+header .hero-page .delivery-dts{
+    padding-left: 73px;
+    padding-top: 90px;
+}
+header .hero-page .delivery-dts .starving h1{
+    color: #FFFFFF;
+    padding-bottom: 7px;
+    font-weight: 700;
+    font-size: 9vb;
+}
+header .hero-page .delivery-dts .location-dts{
+    /* border: 1px solid red; */
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    height: 15rem;
+    margin-top: 40px;
+}
+header .hero-page .delivery-dts .location-dts .delivery-mtd{
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid black;
+    height: 7.5rem;
+    align-items: center;
+    padding-inline: 30px;
+}
+header .hero-page .delivery-dts .location-dts .delivery-mtd .bike{
+    display: flex;
+    gap: 10px;
+    background-color: #F172281A;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    height: 60px;
+    width: 120px;
+    align-items: center;
+    padding-left: 20px;
+}
+header .hero-page .delivery-dts .location-dts .delivery-mtd .bike img{
+    height: 20px;
+}
+header .hero-page .delivery-dts .location-dts .delivery-mtd .bike h5{
+    color: #F17228;
+}
+header .hero-page .delivery-dts .location-dts .delivery-mtd .pick-up{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 60px;
+    width: 120px;
+    padding-left: 20px;
+}
+header .hero-page .delivery-dts .location-dts .delivery-mtd .pick-up img{
+    height: 20px;
+}
+header .hero-page .delivery-dts .location-dts .delivery-mtd .pick-up h5{
+    color: #757575;
+}
+header .hero-page .delivery-dts .location-dts .location-inp{
+    display: flex;
+    gap: 20px;
+    padding-inline: 30px;
+    padding-top: 20px;
+}
+header .hero-page .delivery-dts .location-dts .location-inp .location-txt .input{
+    position: relative;
+}
+header .hero-page .delivery-dts .location-dts .location-inp .location-txt .input input{
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+    padding-left: 40px;
+}
+header .hero-page .delivery-dts .location-dts .location-inp .location-txt img{
+    height: 25px;
+    position: absolute;
+    top: 30.3rem;
+    left: 115px;
+}
+header .hero-page .delivery-dts .location-dts .location-inp .button img{
+    height: 30px;
+    position: absolute;
+    top: 31rem;
+    border: 1px solid black;
+    background-color: black;
+}
+header .hero-page .delivery-dts .location-dts .location-inp .button button{
+    height: 50px;
+    width: 9rem;
+    border-radius: 5px;
+    background-color: #FF7A7A;
+    color: white;
+    border: none;
+    position: relative;
+}
+header .hero-page .food-img img{
+    padding-top: 65px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    /* padding-inline: 73px; */
+}
+section .frt-food .salmon img{
+    border: 1px solid red;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+section .frt-food .salmon .discount1{
+    display: flex;
+    color: white;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: #FFB30E;
+    width: 90px;
+    border-top-right-radius: 20px;
+    border: none;
+    padding-left: 10px;
+    position: absolute;
+    top: 57.9rem;
+}
+section .frt-food .salmon .discount1 h2{
+    font-size: 5vb;
+}
+section .frt-food .salmon .discount1 .pct span{
+    display: block;
+}
+section .frt-food .greys-vage{
+    margin-top: 10px;
+}
+section .frt-food .remaining{
+    border: 1px solid black;
+    border-radius: 5px;
+    border: none;
+    background-color: #F1722833;
+    height: 30px;
+    width: 200px;
+    color: #F17228;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.sect{
+    height: 60vh;
+    background-color: #FFCE6738;
+}
+.sect span{
+    display: block;
+}
+.sect .how-it-work{
+    color: #F17228;
+   text-align: center;
+   padding-top: 40px;
+}
+.sect .work{
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 30px;
+}
+.sect .work img{
+    padding-left: 30px;
+}
+.sect .work h3{
+    text-align: center;
+}
+.sect .work p{
+    font-weight: 200;
+    padding-top: 10px;
+    text-align: center;
+}
+.popular-items h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.popular-items .po-item{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.popular-items .po-item .bake1 .pick{
+    display: flex;
+    gap: 5px;
+    color: #FFB30E;
+}
+.popular-items .po-item .bake1 button{
+    height: 50px;
+    width: 220px;
+    border-radius: 7px;
+    background-color: #F17228;
+    color: #FFFFFF;
+    border: none;
+}
+.popular-items .po-item .p-arrow{
+    padding-top: 80px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+}
+main .foodworld .dscnt{
+    display: flex;
+    gap: 20px;
+}
+main .foodworld .dscnt .pick-sale{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F17228;
+    color: white;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 110px;
+}
+main .foodworld .dscnt .time-sale{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB30E;
+    color: white;
+    border: 1px solid black;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+}
+main .foodworld .foodworld-logo{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+}
+main .foodworld .foodworld-logo .foodworld-rating .foodworld-star{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: #FFB30E;
+}
+main .foodworld .open{
+    color: #F17228;
+    background-color: #F1722833;
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid black;
+    height: 30px;
+    width: 220px;
+    border-radius: 10px;
+    border: none;
+    margin-block: 20px;
+}
